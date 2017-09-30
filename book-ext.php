@@ -89,10 +89,10 @@ class BaseController {
 }
 
 // DB Credentials
-$db_host = 'localhost';
-$db_user = 'ellhn_explorer';
-$db_pass = 'N&&.!4<Qm.4~!u';
-$db_name = 'ellhn_task';
+$db_host = '';
+$db_user = '';
+$db_pass = '';
+$db_name = '';
 
 // DB Connection
 $db = new PDO("mysql:host=" . $db_host . ";dbname=" . $db_name, $db_user, $db_pass);
